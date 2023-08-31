@@ -1,17 +1,14 @@
 ---
-title: "Zen demo site"
+title: "האזרחית ק."
 baseURL: "https://zen-demo.xdeb.org/"
 theme: "github.com/frjo/hugo-theme-zen/v3"
-languageCode: "en-GB"
-defaultContentLanguage: "en"
+languageCode: "he-il"
+defaultContentLanguage: "he"
 pluralizelisttitles: false
 removePathAccents: true
 paginate: 10
 paginatePath: "page"
 rssLimit: 20
-author:
-  name: "Fredrik Jonsson"
-  url: "https://xdeb.org"
 
 markup:
   goldmark:
@@ -33,10 +30,10 @@ outputs:
   section: ["HTML","RSS", "JSON"]
 
 params:
-  contact: "frjo@xdeb.org"
+  contact: "karenhaber0409@gmail.com"
   copyright: '<!--Creative Commons License-->This site is licensed under a <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a> licence.<!--/Creative Commons License-->'
-  description: "The zen theme for Hugo demo site."
-  dateformat: "2 January, 2006"
+  description: "Karen Haber's personal website"
+  dateformat: "2/1/06"
   favicon: "apple-touch-icon.png"
   feedlinks: true
   icon: "apple-touch-icon.png"
@@ -52,13 +49,10 @@ params:
   submitted: true
 
 languages:
-  en:
+  he:
     weight: 1
-    languageName: "English"
-    languageCode: "en-GB"
-    contentDir: content/en
-  sv:
-    weight: 2
-    languageName: "Svenska"
-    languageCode: "sv-SE"
-    contentDir: content/sv
+    languageName: "עברית"
+    languageCode: "he-il"
+    contentDir: "content"
+    languageDirection: "rtl"
+    dateFormat: "2/1/2006"
